@@ -88,34 +88,33 @@ body {
     margin-top: -500%;
   }
 }
-#container-phones-info > div > .apple-style-h1{
-    width: 420px;
-    height: 400px;
-    background-color: #832161;
-    color: #14213D;
-    font-weight: bold;
-    text-align: center;
-    font-size: 200%;
-
+#container-phones-info > div > .apple-style-h1 {
+  width: 420px;
+  height: 400px;
+  background-color: #832161;
+  color: #14213d;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
 }
-#container-phones-info > div > .samsung-style-h1{
-    width: 420px;
-    height: 400px;
-    background-color: #839788;
-    color: #14213D;
-    font-weight: bold;
-    text-align: center;
-    font-size: 200%;
+#container-phones-info > div > .samsung-style-h1 {
+  width: 420px;
+  height: 400px;
+  background-color: #839788;
+  color: #14213d;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
 }
-#container-phones-info{
-    display: flex;
-    justify-content: space-evenly;
+#container-phones-info {
+  display: flex;
+  justify-content: space-evenly;
 }
- a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
- a:visited{
-    text-decoration: none;
-    color: white;
+a:visited {
+  text-decoration: none;
+  color: white;
 }
