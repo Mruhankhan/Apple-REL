@@ -1,60 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Wix+Madefor+Display:wght@500&display=swap');
-*{
-margin: 0%;
-padding: 0%;
-box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Wix+Madefor+Display:wght@500&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
-
-body{
-    background-color: #bfd7ea;
+body {
+  background-color: #bfd7ea;
 }
 
-#top-bar{
-    color:white;
-    font-family: 'Euphoria Script', cursive;
-    font-family: 'Wix Madefor Display', sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    background-color:black ;
+#top-bar {
+  color: white;
+  font-family: "Euphoria Script", cursive;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: black;
 }
 
-
-.logo{
-    width:2rem;
-    height: 2rem;
-    border-radius: 50%;
-    align-items: center;
+.logo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  align-items: center;
 }
 
-#top-bar-wrapper{
-height: 70px;
-display: flex;
-align-items: center;
-justify-content: space-between;
+#top-bar-wrapper {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-#front-products{
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
+#front-products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-#new-phone{
-    border-radius:40px;
-text-align: center;
+#new-phone {
+  color: white;
+  border-radius: 40px;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  height: 720px;
+}
+#new-phone > h1 {
+  position: relative;
+  top: 1vw;
+  color: white;
+}
+
+#new-phone > h3 {
+  position: relative;
+  top: 4vw;
+  color: white;
+}
+
+@media screen and (max-width: 920px) {
+  #new-phone {
+    border-radius: 40px;
+    text-align: center;
     background-color: black;
-width: 100%;
-height: 700px;
+    width: 100%;
+    height: 1200px;
+  }
 }
-#new-phone > h1{
-position: relative;
-    top: 1vw;
-    color:white;
+#iphone14Pro {
+  animation-name: iphone14pro;
+  animation-duration: 2.4s;
+  animation-iteration-count: 1;
+}
+#samsung23Ultra {
+  animation-name: samsung23ultra;
+  animation-duration: 2.4s;
+  animation-iteration-count: 1;
+}
+@keyframes iphone14pro {
+  10% {
+    margin-top: -100%;
+  }
 }
 
-#new-phone > h3{
-    position: relative;
-        top: 2vw;
-        color:white;
-    }
+@keyframes samsung23ultra {
+  10% {
+    margin-top: -500%;
+  }
+}
+#container-phones-info > div > .apple-style-h1{
+    width: 420px;
+    height: 400px;
+    background-color: #832161;
+    color: #14213D;
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+
+}
+#container-phones-info > div > .samsung-style-h1{
+    width: 420px;
+    height: 400px;
+    background-color: #839788;
+    color: #14213D;
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+}
+#container-phones-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+ a{
+    text-decoration: none;
+    color: white;
+}
+ a:visited{
+    text-decoration: none;
+    color: white;
+}
