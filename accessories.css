@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Wix+Madefor+Display:wght@500&display=swap");
+
+#top-bar {
+  color: white;
+  font-family: "Euphoria Script", cursive;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: black;
+}
+.logo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  align-items: center;
+}
+
+#top-bar-wrapper {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
