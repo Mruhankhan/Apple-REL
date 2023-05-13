@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Wix+Madefor+Display:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{
+  box-sizing: border-box;
+}
 
+body{
+  background-color: #bfd7ea;
+}
 #top-bar {
   color: white;
   font-family: "Euphoria Script", cursive;
@@ -29,4 +37,67 @@ a {
 a:visited {
   text-decoration: none;
   color: white;
+}
+
+#container{
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  place-items: center;
+  justify-content: space-around;
+}
+#products{
+width: 100%;
+height: 70%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap:40px;
+}
+#product{
+  position: relative;
+  background-color: white;
+  width: 350px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between ;
+  padding: 20px 20px 40px ;
+  border-radius: 10px;
+  transition: .3s;
+}
+
+#image{
+  width: 100%;
+  height: 60%;
+display: grid;
+place-items: center;
+}
+
+#image img{
+  width: 240px;
+}
+
+#name-and-price{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#name-and-price > div, h3{
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+  font-size: 140%;
+}
+p{
+  font-family: 'Kanit', sans-serif;
+  
+}
+button{
+  background-color: lightgreen;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: bold;
 }
